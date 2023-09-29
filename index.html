@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Online Quiz</title>
+    <title>User Form</title>
 </head>
+
 <body>
-    <div class="quiz-container">
-        <h1>Online Quiz</h1>
-        <div class="question">
-            <p>Question 1: What is the capital of France?</p>
-            <input type="radio" name="q1" value="Paris"> Paris<br>
-            <input type="radio" name="q1" value="London"> London<br>
-            <input type="radio" name="q1" value="Berlin"> Berlin<br>
-        </div>
-        <div class="question">
-            <p>Question 2: Which planet is known as the Red Planet?</p>
-            <input type="radio" name="q2" value="Mars"> Mars<br>
-            <input type="radio" name="q2" value="Jupiter"> Jupiter<br>
-            <input type="radio" name="q2" value="Venus"> Venus<br>
-        </div>
-        <button id="submit">Submit</button>
-        <div id="results"></div>
+    <div class="form-container">
+        <h2>User Form</h2>
+        <form id="user-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error-message" id="email-error">Invalid email address</span>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
     </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
