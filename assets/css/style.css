@@ -11,11 +11,57 @@ body {
     text-align: center;
 }
 
-.quiz-box {
+.app {
     background: white;
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
     border-radius: 10px;
     padding: 30px;
+}
+
+.container {
+    max-width: 600px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 700px;
+    margin: 50px auto 0;
+}
+.app h1 {
+    font-size: 25px;
+    color: black;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    font-size: 18px;
+    color: #001e4d;
+    font-weight: 600px;
+}
+
+.btn {
+    background: white;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solidn#222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align:  left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.03s;    
+}
+
+.btn:hover {
+    background: #222;
+    color: white;
 }

@@ -13,22 +13,30 @@
     <h1 class="heading">Welcome to quiz</h1>
 
             <h2>Registration Form</h2>
-            <form id="registration-form" action="#" method="post">
-                <div class="form-group">
+            <form class="container" action="#" method="post">
+                <div>
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username" required>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
+                <div>
+                    <label for="email">Email Address</Address>:</label>
                     <input type="email" id="email" name="email" required>
                     <p class="error-message" id="email-error"></p>
                 </div>
                 <button type="submit">Register</button>
             </form>
 
-    <div class="quiz-box">   
-        <h1>   
-
+    <div class="app">   
+        <h1>Simple Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">Question goes here</h2>
+            <div id="answer-buttons">
+                <button class="btn">Answer A</button>
+                <button class="btn">Answer B</button>
+                <button class="btn">Answer C</button>
+                <button class="btn">Answer D</button>
+            </div>
+        </div>
     </div>
 
     <div class="score-area">
