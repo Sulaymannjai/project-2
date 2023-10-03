@@ -125,4 +125,5 @@ nextButton.addEventListener("click", () => {
         handleNextButton();
     }
 });
+
 startQuiz();  

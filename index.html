@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Welcome To The Fun Quiz</title>
-</head>
+  </head>
 
-<body>
-    <h1 class="heading">Welcome to quiz</h1>
+  <body>
+    <h1 class="heading">Welcome To The Fun Quiz</h1>
 
     <h2>Registration Form</h2>
     <form class="container" action="#" method="post">
-        <div>
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-        </div>
-        <div>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-            <p class="error-message" id="email-error"></p>
-        </div>
-        <button type="submit">Register</button>
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required />
+      </div>
+      <div>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+        <p class="error-message" id="email-error"></p>
+      </div>
+      <button type="submit">Register</button>
     </form>
 
     <div class="app">
-        <h1>Simple Quiz</h1>
-        <div class="quiz">
-            <h2 id="question">Question goes here</h2>
-            <div id="answer-buttons">
-                <button class="btn">Answer A</button>
-                <button class="btn">Answer B</button>
-                <button class="btn">Answer C</button>
-                <button class="btn">Answer D</button>
-            </div>
-            <button id="next-btn">Next</button>
+      <h1>Simple Quiz</h1>
+      <div class="quiz">
+        <h2 id="question">Question goes here</h2>
+        <div id="answer-buttons">
+          <button class="btn">Answer A</button>
+          <button class="btn">Answer B</button>
+          <button class="btn">Answer C</button>
+          <button class="btn">Answer D</button>
         </div>
+        <button id="next-btn">Next</button>
+      </div>
     </div>
 
     <script src="assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
