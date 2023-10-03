@@ -128,6 +128,38 @@ nextButton.addEventListener("click", () => {
     }
 });
 
+let timer;
+const timerElement = document.getElementById("timer");
+
+function startQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
+    startTimer(10); // Set timer to 10 seconds
+}
+function handleNextButton() {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+        showQuestion();
+        startTimer(10); // Start the timer for the next question
+    } else {
+        showScore();
+    }
+}
+
+function startTimer(seconds) {
+    timer = seconds;
+    timerElement.textContent = timer;
+    const interval = setInterval(() => {
+        timer--;
+        timerElement.textContent = timer;
+        if (timer <= 0) {
+            clearInterval(interval);
+            handleNextButton(); 
+        }
+    }, 1000);
+}
 
 
 startQuiz();  
