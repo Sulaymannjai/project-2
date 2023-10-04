@@ -136,13 +136,13 @@ function startQuiz() {
     score = 0;
     nextButton.innerHTML = "Next";
     showQuestion();
-    startTimer(10); // Set timer to 10 seconds
+    startTimer(10); 
 }
 function handleNextButton() {
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
         showQuestion();
-        startTimer(10); // Start the timer for the next question
+        startTimer(10); 
     } else {
         showScore();
     }
