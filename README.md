@@ -12,7 +12,7 @@ This is a 10 seconds geography timer quiz questions with the main focus on Afric
 
   - The question section consists of four options.
 
-__The Score Area__
+-__The Score Area__
 
 - At the end of the game, you score will be displayed with an option to play again.
 
@@ -35,6 +35,4 @@ Had a 92% score.
 
 The Slack team, google, youtube and chatGtp helped with checking for errors and faults in my code.
 
-
-
-Wireframe: picture attached.
+-Wireframe, picture attached:
