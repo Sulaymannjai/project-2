@@ -1,6 +1,17 @@
 # The Fun Quiz
 
+## UX
+    -User story
+    -Wireframe
+    
+## Deployment
+    -Features
+    -Testing
+    -Credits
+            
 This is a 10 seconds geography timer quiz questions with the main focus on Africa. Capitals change according to what countries find important or useful. China has been the populous country for over 20 years but now it is India. The Giants of Africa changed their capital from Lagos to Abuja A lot of information goes by without being noticed so this simple quiz is a brain teaser to update you.
+
+Wireframe ![alt](assets/images/IMG_0004.jpeg)
 
 ## Features
 
@@ -10,7 +21,11 @@ This is a 10 seconds geography timer quiz questions with the main focus on Afric
 
 - __The Question section__
 
-  - The question section consists of four options.
+  - The question section consists of four options accompanied by a 10 secound timer.
+
+- __The Answer section__
+
+  - The answer section consists of four options marked A, B,C and D. With the chance of picking one answer at a time.
 
 -__The Score Area__
 
@@ -34,5 +49,3 @@ Had a 92% score.
 ## Credits
 
 The Slack team, google, youtube and chatGtp helped with checking for errors and faults in my code.
-
--Wireframe, picture attached:
